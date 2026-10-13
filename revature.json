@@ -1,0 +1,15 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/GroupByTest.java",
+      "testCases": [
+        {
+          "methodName": "problem1Test",
+          "label": "Verify grouping songs by artist returns correct counts",
+          "description": "Runs problem1(), which should query the song table, group rows by artist, and return a map of artist names to the number of songs they have. Confirms the result matches expected counts for The Beatles, Led Zeppelin, and The Eagles."
+        }
+      ]
+    }
+  ]
+}
